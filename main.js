@@ -30,7 +30,11 @@ console.log(intValue2); //20
 
 //Exception throw
 //console.log(intValue3); //Cannot access 'intValue3' before initialization
+
 //Exception throw
 //const intValue2 = 40; //Identifier 'intValue2' has already been declared
 const intValue3 = 30;
+
+//Error throw
+intValue3 = 50; //Assignment to constant variable.
 console.log(intValue3);
